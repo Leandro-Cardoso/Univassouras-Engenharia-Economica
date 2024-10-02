@@ -19,10 +19,12 @@ public class RealTax {
 
     public void setTaxaAparente(double taxaAparente) {
         this.taxaAparente = taxaAparente;
+        this.calcular();
     }
 
     public void setInflacao(double inflacao) {
         this.inflacao = inflacao;
+        this.calcular();
     }
 
     public static void main(String[] args) {
